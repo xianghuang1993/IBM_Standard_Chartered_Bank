@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+Test set: test.TestHotelManager
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0.026 sec <<< FAILURE!
+test.TestHotelManager.testFindBookingsForGuest()  Time elapsed: 0.017 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at test.TestHotelManager.testFindBookingsForGuest(TestHotelManager.java:95)
+Caused by: java.lang.ClassNotFoundException: org.junit.Assert
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 19 more
+
+test.TestHotelManager.testFindAvailableRooms()  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at test.TestHotelManager.testFindAvailableRooms(TestHotelManager.java:75)
+
+test.TestHotelManager.testAddRoom()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at test.TestHotelManager.testAddRoom(TestHotelManager.java:32)
+
+test.TestHotelManager.testStoreBooking()  Time elapsed: 0.005 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at test.TestHotelManager.testStoreBooking(TestHotelManager.java:55)
+
