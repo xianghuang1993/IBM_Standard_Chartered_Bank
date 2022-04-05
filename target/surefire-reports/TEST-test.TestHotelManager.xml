@@ -1,23 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="4" name="test.TestHotelManager" time="0.023" errors="0" skipped="0">
+<testsuite tests="5" failures="5" name="test.TestHotelManager" time="0.111" errors="0" skipped="0">
   <properties>
+    <property name="jansi.mode" value="strip"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="java.vm.version" value="13.0.2+8"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-13.0.2\bin"/>
-    <property name="maven.multiModuleProjectDirectory" value="D:\Eclipse Projects\Hotel_Manager_POC"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_321\jre\bin"/>
+    <property name="java.vm.version" value="25.321-b07"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="java.vendor.url" value="https://java.oracle.com/"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Eclipse Projects\hotelmanager"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="sun.os.patch.level" value=""/>
+    <property name="file.encoding.pkg" value="sun.io"/>
     <property name="user.script" value=""/>
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="D:\Eclipse Projects\Hotel_Manager_POC"/>
-    <property name="java.vm.compressedOopsMode" value="32-bit"/>
-    <property name="java.runtime.version" value="13.0.2+8"/>
+    <property name="user.dir" value="D:\Eclipse Projects\hotelmanager"/>
+    <property name="java.runtime.version" value="1.8.0_321-b07"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_321\jre\lib\endorsed"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.io.tmpdir" value="C:\Users\xiang\AppData\Local\Temp\"/>
     <property name="line.separator" value="
@@ -25,71 +28,80 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="D:\Eclipse Projects\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf9819395387183311285.tmp"/>
+    <property name="classworlds.conf" value="D:\Eclipse Projects\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf15751846621177606151.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-13.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Python\Scripts\;D:\Python\;C:\vnstudio\Scripts;C:\vnstudio\;C:\app\xiang\product\18.0.0\dbhomeXE\bin;D:\Oracle\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-13.0.2\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jre1.8.0_281\bin;C:\Program Files (x86)\dotnet\;;D:\VSCODE\Microsoft VS Code\bin;C:\Users\xiang\AppData\Local\Microsoft\WindowsApps;D:\Pycharm\PyCharm 2020.2.2\bin;;C:\Program Files\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk-13.0.2\bin;;."/>
-    <property name="jdk.debug" value="release"/>
-    <property name="java.class.version" value="57.0"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_321\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/Eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.2.v20220201-1208/jre/bin/server;D:/Eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.2.v20220201-1208/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\Python\Scripts\;D:\Python\;C:\vnstudio\Scripts;C:\vnstudio\;C:\app\xiang\product\18.0.0\dbhomeXE\bin;D:\Oracle\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files (x86)\dotnet\;D:\VSCODE\Microsoft VS Code\bin;C:\Users\xiang\AppData\Local\Microsoft\WindowsApps;D:\Pycharm\PyCharm 2020.2.2\bin;;C:\Program Files\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk1.8.0_321\bin;;D:\Eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="10.0"/>
     <property name="user.home" value="C:\Users\xiang"/>
     <property name="user.timezone" value="Asia/Taipei"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
     <property name="file.encoding" value="Cp1252"/>
-    <property name="java.specification.version" value="13"/>
     <property name="user.name" value="xiang"/>
-    <property name="java.class.path" value="C:\Users\xiang\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.16.0.20200610-1735\jars\plexus-classworlds-2.6.0.jar"/>
-    <property name="java.vm.specification.version" value="13"/>
+    <property name="java.class.path" value="D:\Eclipse\plugins\org.eclipse.m2e.maven.runtime_1.18.3.20220227-1319\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk-13.0.2"/>
-    <property name="user.language" value="en"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_321\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -s C:\Users\xiang\.m2\settings.xml install"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.info" value="mixed mode, sharing"/>
-    <property name="java.version" value="13.0.2"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_321"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_321\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_321\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_321\jre\classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="D:\Eclipse Projects\Hotel_Manager_POC\EMBEDDED"/>
+    <property name="maven.home" value="D:\Eclipse Projects\hotelmanager\EMBEDDED"/>
     <property name="file.separator" value="\"/>
-    <property name="java.version.date" value="2020-01-14"/>
-    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="test.TestHotelManager" name="test.TestHotelManager.testFindBookingsForGuest" time="0.017">
+  <testcase classname="test.TestHotelManager" name="test.TestHotelManager.testFindAvailableRooms" time="0.101">
     <failure message="org/junit/Assert" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/junit/Assert
-	at test.TestHotelManager.testFindBookingsForGuest(TestHotelManager.java:95)
+	at test.TestHotelManager.testFindAvailableRooms(TestHotelManager.java:76)
 Caused by: java.lang.ClassNotFoundException: org.junit.Assert
-	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
-	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:387)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
 	... 19 more
 </failure>
     <system-out>stored booking name: John, booking room: 101, booking date: Wed Mar 02 00:00:00 CST 2022 successfully!
 stored booking name: John, booking room: 201, booking date: Thu Mar 03 00:00:00 CST 2022 successfully!
-all rooms have been booked!
+stored booking name: Kevin, booking room: 301, booking date: Thu Mar 03 00:00:00 CST 2022 successfully!
 </system-out>
   </testcase>
-  <testcase classname="test.TestHotelManager" name="test.TestHotelManager.testFindAvailableRooms" time="0.001">
+  <testcase classname="test.TestHotelManager" name="test.TestHotelManager.testFindBookingsForGuest" time="0.001">
     <failure message="org/junit/Assert" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/junit/Assert
-	at test.TestHotelManager.testFindAvailableRooms(TestHotelManager.java:75)
+	at test.TestHotelManager.testFindBookingsForGuest(TestHotelManager.java:96)
 </failure>
     <system-out>this room has been booked!
 this room has been booked!
-all rooms have been booked!
+this room has been booked!
 </system-out>
   </testcase>
-  <testcase classname="test.TestHotelManager" name="test.TestHotelManager.testAddRoom" time="0">
+  <testcase classname="test.TestHotelManager" name="test.TestHotelManager.testResetHotelInfo" time="0">
     <failure message="org/junit/Assert" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/junit/Assert
-	at test.TestHotelManager.testAddRoom(TestHotelManager.java:32)
+	at test.TestHotelManager.testResetHotelInfo(TestHotelManager.java:111)
 </failure>
   </testcase>
-  <testcase classname="test.TestHotelManager" name="test.TestHotelManager.testStoreBooking" time="0.005">
+  <testcase classname="test.TestHotelManager" name="test.TestHotelManager.testAddRoom" time="0.003">
     <failure message="org/junit/Assert" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/junit/Assert
-	at test.TestHotelManager.testStoreBooking(TestHotelManager.java:55)
+	at test.TestHotelManager.testAddRoom(TestHotelManager.java:33)
 </failure>
-    <system-out>this room has been booked!
-this room has been booked!
+  </testcase>
+  <testcase classname="test.TestHotelManager" name="test.TestHotelManager.testStoreBooking" time="0.006">
+    <failure message="org/junit/Assert" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/junit/Assert
+	at test.TestHotelManager.testStoreBooking(TestHotelManager.java:56)
+</failure>
+    <system-out>stored booking name: John, booking room: 101, booking date: Wed Mar 02 00:00:00 CST 2022 successfully!
+stored booking name: John, booking room: 201, booking date: Thu Mar 03 00:00:00 CST 2022 successfully!
 stored booking name: Kevin, booking room: 301, booking date: Thu Mar 03 00:00:00 CST 2022 successfully!
 </system-out>
   </testcase>

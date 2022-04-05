@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:web="http://xmlns.jcp.org/xml/ns/javaee">
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <description></description>
+    <display-name>AddRoom</display-name>
+    <servlet-name>AddRoom</servlet-name>
+    <servlet-class>controller.AddRoom</servlet-class>>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>AddRoom</servlet-name>
+    <url-pattern>/addroom</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>ResetHotelInfo</display-name>
+    <servlet-name>ResetHotelInfo</servlet-name>
+    <servlet-class>controller.ResetHotelInfo</servlet-class>>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>ResetHotelInfo</servlet-name>
+    <url-pattern>/resethotelinfo</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>StoreBooking</display-name>
+    <servlet-name>StoreBooking</servlet-name>
+    <servlet-class>controller.StoreBooking</servlet-class>>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>StoreBooking</servlet-name>
+    <url-pattern>/storebooking</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>FindAvailableRooms</display-name>
+    <servlet-name>FindAvailableRooms</servlet-name>
+    <servlet-class>controller.FindAvailableRooms</servlet-class>>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>FindAvailableRooms</servlet-name>
+    <url-pattern>/findavailablerooms</url-pattern>
+  </servlet-mapping>  
+  
+  <servlet>
+    <description></description>
+    <display-name>FindBookingsForGuest</display-name>
+    <servlet-name>FindBookingsForGuest</servlet-name>
+    <servlet-class>controller.FindBookingsForGuest</servlet-class>>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>FindBookingsForGuest</servlet-name>
+    <url-pattern>/findbookingsforguest</url-pattern>
+  </servlet-mapping>  
+  
+</web-app>
